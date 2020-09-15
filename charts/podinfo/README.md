@@ -1,6 +1,6 @@
 # Podinfo
 
-Podinfo is a tiny web application made with Go 
+Podinfo is a tiny web application made with Go
 that showcases best practices of running microservices in Kubernetes.
 
 ## Installing the Chart
@@ -9,7 +9,7 @@ To install the chart with the release name `my-release`:
 
 ```console
 $ helm repo add sp https://stefanprodan.github.io/podinfo
-$ helm upgrade my-release --install sp/podinfo 
+$ helm upgrade my-release --install sp/podinfo
 ```
 
 The command deploys podinfo on the Kubernetes cluster in the default namespace.
